@@ -1,3 +1,10 @@
+import '@mantine/core/styles.css';
+import {MantineProvider} from '@mantine/core';
+
 export function App() {
-  return <h1>Geek Squad Tools</h1>;
+  return (
+    <MantineProvider>
+      <h1>Geek Squad Tools</h1>
+    </MantineProvider>
+  );
 }
